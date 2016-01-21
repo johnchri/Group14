@@ -17,6 +17,7 @@
 package controllers;
 
 
+import ninja.NinjaFluentLeniumTest;
 import org.junit.Test;
 
 import ninja.NinjaDocTester;
@@ -51,5 +52,4 @@ public class ApiControllerDocTesterTest extends NinjaDocTester {
         assertThat(response.payload, containsString("Aces Up"));
         assertThat(response.payload, containsString("columnOfCards"));
     }
-
 }
