@@ -5,8 +5,7 @@ package Model;
  */
 public class Deck
 {
-
+    
     /*public deal(ArrayList<Card> cards){
-
-    }*/
+     }*/
 }
