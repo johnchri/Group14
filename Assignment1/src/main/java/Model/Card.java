@@ -5,6 +5,6 @@ package Model;
  */
 public class Card {
     public int rank;
-    public String suite;
+    public String suit;
 
 }
