@@ -6,6 +6,6 @@ package Model;
 public class Deck
 {
     
-    /*public deal(ArrayList<Card> cards){
+    /*chrispublic deal(ArrayList<Card> cards){
      }*/
 }
