@@ -5,14 +5,16 @@ package Model;
  */
 public class move {
 
-    public var[2] from = { 0, 0};
-    public var[2] to = {0,0};
+    public int[] from;
+    public int[] to;
 
     public move(int x1, int y1, int x2, int y2){
-        from = {x1, y1};
-        to = {x2, y2};
+        from = new int[2];
+        from[0] = x1;
+        from[1] = y1;
+        to = new int[2];
+        to[0] = x2;
+        to[1] = y2;
     }
-
-
 
 }
