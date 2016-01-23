@@ -15,6 +15,7 @@ public class move {
         to = new int[2];
         to[0] = x2;
         to[1] = y2;
+        
     }
 
 }
